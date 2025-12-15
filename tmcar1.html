@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Интернет магазин</title>
+    <style>
+        body { background: none;}
+        .image { margin-left: 900px; margin-bottom: 50px; margin-top: 50px; border-radius: 20px; border: 4px solid red; border-radius: 15px; width: 700px; height: 400px;}
+        .image img { width: 700px; height: 400px; }
+        .cart { position: absolute; right: 25px; top: 45px; margin: 10px; border: none; }
+        .cart img { width: 700px; height: 700px; }
+    </style>
+</head>
+<body>
+    <a href="tmot.html" style="color: white; font-size: 30px; margin: 15px">Назад</a><br><br>
+    <h1 align="center"><span style="color: white;">Лада Приора</span></h1>
+    <div class="image">
+    <img src="ot1.png">
+    </div>
+    <p align="center" style="color: white; font-size: 20px;">«Лада Приора» — российский автомобиль, который отличается надёжностью и доступной ценой.<br> Модель разработана компанией «АвтоВАЗ» на основе модели ВАЗ-1111 «Ока».<br> Приора стала первым автомобилем в линейке «АвтоВАЗа» с передним приводом.</p>
+    <h2 align="center" style="color: white; margin: 0px;">Цена: 500.000 ₽</span></h2>
+    <div class="cart"><image src="ross.png" usemap="#карта"></div>
+        <map name="карта">
+    <area shape="circle" coords="373,664,40" href="https://auto.ru/rostovskaya_oblast/dilery/cars/all/?utm_referrer=https%3A%2F%2Fyandex.ru%2F">
+    <area shape="circle" coords="262,330,40" href="https://auto.ru/kaluga/dilery/cars/all/?utm_referrer=https%3A%2F%2Fyandex.ru%2F">
+    <area shape="circle" coords="304,268,40" href="https://auto.ru/moskva/dilery/cars/all/?utm_referrer=https%3A%2F%2Fyandex.ru%2F">
+    <area shape="circle" coords="79,45,40" href="https://auto.ru/sankt-peterburg/dilery/cars/all/?utm_referrer=https%3A%2F%2Fyandex.ru%2F">
+</map>
+    <table>
+        <tr>
+            <td width="50%" valign="top">
+                <form style="background: grey; margin-top: 10px; margin-left: 1100px; padding: 25px; width: 250px; height: 250px;">
+                    <b>Заявка на покупку</b><br><br>
+                    ФИО:<br>
+                    <input type="text" required size="25" pattern="[А-ЯЁ][а-яё]+\s[А-ЯЁ][а-яё]+\s[А-ЯЁ][а-яё]+" placeholder="Фамилия Имя Отчество"><br><br>
+
+                    Город:<br>
+                    <select required>
+                        <option value="">Выберите</option>
+                        <option>Калуга</option>
+                        <option>Москва</option>
+                        <option>Санкт-Петербург</option>
+                        <option>Ростов-На-Дону</option>
+                    </select><br><br>
+
+                    Цвет:<br>
+                    <select required>
+                        <option>Черный</option>
+                        <option>Белый</option>
+                        <option>Синий</option>
+                        <option>Красный</option>
+                        <option>Зеленый</option>
+                    </select><br><br>
+                    <input type="submit" value="Отправить">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
